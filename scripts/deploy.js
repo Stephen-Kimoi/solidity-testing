@@ -10,7 +10,6 @@ async function main () {
 
    const tokenContract = await ethers.getContractFactory("Token"); 
    const deployedTokenContract = await tokenContract.deploy(); 
-   https://www.alchemyapi.io
    await deployedTokenContract.deployed(); 
 
    console.log("Contract address: ", deployedTokenContract.address); 
